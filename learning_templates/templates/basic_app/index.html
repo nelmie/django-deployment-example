@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+  {% block body_block %}
+    <h1>Welcome in Index page</h1>
+    <h2>This is a example of template inheted!</h2>
+    <h3>hello there</h3>
+    <h1>{{text|cut:"world"}}</h1>
+    <h1>{{number}}</h1>
+  {% endblock %}
